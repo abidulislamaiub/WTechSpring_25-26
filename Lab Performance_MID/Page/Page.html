@@ -1,43 +1,26 @@
+
 <!DOCTYPE html>
 <html>
-<head>
-<title>Product Management</title>
-<link rel="stylesheet" href="Style.css">
-</head>
-
+    <head>
+        <title>Product Management</title>
+        <link rel="stylesheet" href="D:\AIUB\Semester-11\WEB TECH\WTechSpring_25-26\Lab Performance_MID\Design\Style.css">
+    </head>
 <body>
-
-<header>
-<h1>Product Information</h1>
-</header>
-
-<div class="container">
-
-<form>
-<fieldset>
-
-<legend>Product Management Page</legend>
-
-<p><strong>Unit Price:</strong> 1000</p>
-
-<label>Quantity per Day:</label>
-<input type="number" id="quantity" value="0">
-
-<br><br>
-
-<label>Total Price for 30 Days:</label>
-<input type="text" id="totalPrice" value="0" readonly>
-
-</fieldset>
-</form>
-
-</div>
-
-<footer>
-<p>Created 2026</p>
-</footer>
-
-<script src="Script.js"></script>
-
+    <div class="container">
+        <form>
+            <fieldset>
+                <legend>Product Management Page</legend>
+                <label><strong>Unit Price:</strong></label>
+                <input type="number" id="unitPrice" value="1000" readonly>
+                <br><br>
+                <label><strong>Quantity per Day:</strong></label>
+                <input type="number" id="quantity_per_day" placeholder="Enter quantity per day">
+                <br><br>
+                <label><strong>Total Price for 30 Days:</strong></label>
+                <input type="number" id="totalPrice" value="0" readonly><br>
+            </fieldset>
+        </form>
+    </div>
+    <script src="D:\AIUB\Semester-11\WEB TECH\WTechSpring_25-26\Lab Performance_MID\JS\Validation.js"></script>
 </body>
 </html>
