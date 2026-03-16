@@ -24,4 +24,4 @@ alert("Congratulations! You are eligible for a gift coupon.");
 
 }
 
-quantityInput.addEventListener("input", calculateTotal);
+
